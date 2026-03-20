@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NovaWatch — Time, Elevated.</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap"
+        rel="stylesheet" />
+</head>
+
+<body>
+
+    <!-- ══════════════════════════════════════════
+       NAVIGATION
+  ══════════════════════════════════════════ -->
+    <header class="nav-wrapper">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <span class="logo-mark">N</span>NovaWatch
+            </a>
+            <ul class="nav__links">
+                <li><a href="#features">Features</a></li>
+                <li><a href="#specs">Specs</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#cta" class="nav__cta">Order Now</a></li>
+            </ul>
+            <!-- Hamburger (CSS-only toggle via checkbox) -->
+            <label class="nav__hamburger" for="nav-toggle" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </label>
+            <input type="checkbox" id="nav-toggle" class="nav__toggle-input" />
+            <ul class="nav__mobile-menu">
+                <li><a href="#features">Features</a></li>
+                <li><a href="#specs">Specs</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#cta">Order Now</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- ══════════════════════════════════════════
+         HERO
+    ══════════════════════════════════════════ -->
+        <section class="hero">
+            <div class="hero__bg-grid"></div>
+            <div class="hero__glow"></div>
+            <div class="container hero__inner">
+
+                <div class="hero__content">
+                    <p class="hero__eyebrow">
+                        <span class="dot"></span> Introducing NovaWatch Series 1
+                    </p>
+                    <h1 class="hero__headline">
+                        The Future<br />
+                        <em>Strapped to</em><br />
+                        Your Wrist.
+                    </h1>
+                    <p class="hero__desc">
+                        A masterpiece of precision engineering and intelligent design.
+                        NovaWatch doesn't just tell time — it reads your world, tracks your
+                        health, and keeps you seamlessly connected.
+                    </p>
+                    <div class="hero__actions">
+                        <a href="#cta" class="btn btn--primary">Order Now</a>
+                        <a href="#features" class="btn btn--ghost">Explore Features</a>
+                    </div>
+                    <div class="hero__stats">
+                        <div class="stat">
+                            <strong>14-Day</strong>
+                            <span>Battery Life</span>
+                        </div>
+                        <div class="stat-divider"></div>
+                        <div class="stat">
+                            <strong>100m</strong>
+                            <span>Water Resistant</span>
+                        </div>
+                        <div class="stat-divider"></div>
+                        <div class="stat">
+                            <strong>50+</strong>
+                            <span>Health Sensors</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero__visual">
+                    <div class="hero__ring hero__ring--outer"></div>
+                    <div class="hero__ring hero__ring--mid"></div>
+                    <div class="hero__ring hero__ring--inner"></div>
+                    <div class="hero__watch-frame">
+                        <div class="watch-body">
+                            <div class="watch-screen">
+                                <div class="watch-time">09:41</div>
+                                <div class="watch-date">FRI, MAR 20</div>
+                                <div class="watch-metrics">
+                                    <div class="metric">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <path
+                                                d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" />
+                                        </svg>
+                                        <span>72 bpm</span>
+                                    </div>
+                                    <div class="metric">
+                                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                            <polyline points="22 12 18 12 15 21 9 3 6 12 2 12" />
+                                        </svg>
+                                        <span>8,241</span>
+                                    </div>
+                                </div>
+                                <div class="watch-arc">
+                                    <svg viewBox="0 0 100 50" class="arc-svg">
+                                        <path d="M5,50 A45,45 0 0,1 95,50" fill="none" stroke="#1a2a4a"
+                                            stroke-width="6" />
+                                        <path d="M5,50 A45,45 0 0,1 95,50" fill="none" stroke="#2a7fff" stroke-width="6"
+                                            stroke-dasharray="141.37" stroke-dashoffset="42" stroke-linecap="round" />
+                                    </svg>
+                                    <span class="arc-label">78% Active</span>
+                                </div>
+                            </div>
+                            <div class="watch-crown"></div>
+                            <div class="watch-btn watch-btn--top"></div>
+                            <div class="watch-btn watch-btn--bot"></div>
+                            <div class="watch-band watch-band--top"></div>
+                            <div class="watch-band watch-band--bot"></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="hero__scroll-hint">
+                <span>Scroll to explore</span>
+                <div class="scroll-arrow"></div>
+            </div>
+        </section>
+
+        <!-- ══════════════════════════════════════════
+         FEATURES
+    ══════════════════════════════════════════ -->
+        <section class="features" id="features">
+            <div class="container">
+                <div class="section-header">
+                    <p class="section-label">What Makes It Special</p>
+                    <h2 class="section-title">Engineered for<br /><em>Every Moment</em></h2>
+                </div>
+                <div class="features__grid">
+
+                    <article class="feature-card feature-card--accent">
+                        <div class="feature-card__icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M22 12h-4l-3 9L9 3l-3 9H2" />
+                            </svg>
+                        </div>
+                        <h3>Fitness Tracking</h3>
+                        <p>Advanced biometric sensors monitor your heart rate, SpO₂, sleep cycles, stress levels, and
+                            over 100 workout modes — all in real time.</p>
+                        <span class="feature-card__tag">Health+</span>
+                    </article>
+
+                    <article class="feature-card">
+                        <div class="feature-card__icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9" />
+                                <path d="M13.73 21a2 2 0 0 1-3.46 0" />
+                            </svg>
+                        </div>
+                        <h3>Smart Notifications</h3>
+                        <p>Stay in the loop with intelligent notification filtering. Calls, messages, and calendar
+                            alerts delivered with haptic precision directly to your wrist.</p>
+                        <span class="feature-card__tag">Connected</span>
+                    </article>
+
+                    <article class="feature-card">
+                        <div class="feature-card__icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <rect x="2" y="7" width="20" height="14" rx="2" ry="2" />
+                                <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16" />
+                            </svg>
+                        </div>
+                        <h3>Long Battery Life</h3>
+                        <p>A groundbreaking 14-day battery life means NovaWatch stays on your wrist through every
+                            adventure without the anxiety of running low.</p>
+                        <span class="feature-card__tag">14 Days</span>
+                    </article>
+
+                    <article class="feature-card">
+                        <div class="feature-card__icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <circle cx="12" cy="12" r="10" />
+                                <line x1="2" y1="12" x2="22" y2="12" />
+                                <path
+                                    d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
+                            </svg>
+                        </div>
+                        <h3>GPS Navigation</h3>
+                        <p>Built-in multi-constellation GPS gives you accurate turn-by-turn directions and route
+                            tracking — no phone required.</p>
+                        <span class="feature-card__tag">Always On</span>
+                    </article>
+
+                    <article class="feature-card">
+                        <div class="feature-card__icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                            </svg>
+                        </div>
+                        <h3>Water Resistant</h3>
+                        <p>Rated to 100 metres, NovaWatch is built for swimmers, divers, and anyone who refuses to let
+                            water slow them down.</p>
+                        <span class="feature-card__tag">100m</span>
+                    </article>
+
+                    <article class="feature-card feature-card--glass">
+                        <div class="feature-card__icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                                <circle cx="12" cy="12" r="3" />
+                                <path
+                                    d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83" />
+                            </svg>
+                        </div>
+                        <h3>Always-On Display</h3>
+                        <p>A brilliant AMOLED panel with 2000 nit peak brightness ensures perfect readability in any
+                            lighting condition, day or night.</p>
+                        <span class="feature-card__tag">AMOLED</span>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ══════════════════════════════════════════
+         SPECS
+    ══════════════════════════════════════════ -->
+        <section class="specs" id="specs">
+            <div class="specs__bg"></div>
+            <div class="container">
+                <div class="section-header">
+                    <p class="section-label">Under the Hood</p>
+                    <h2 class="section-title">Built to<br /><em>Perform</em></h2>
+                </div>
+                <div class="specs__layout">
+                    <div class="specs__grid">
+
+                        <div class="spec-box">
+                            <div class="spec-box__icon">⌚</div>
+                            <div class="spec-box__value">1.52"</div>
+                            <div class="spec-box__label">AMOLED Display</div>
+                            <div class="spec-box__sub">480 × 480 px · 326 ppi</div>
+                        </div>
+
+                        <div class="spec-box spec-box--highlight">
+                            <div class="spec-box__icon">⚡</div>
+                            <div class="spec-box__value">14 Days</div>
+                            <div class="spec-box__label">Battery Life</div>
+                            <div class="spec-box__sub">Quick charge in 60 min</div>
+                        </div>
+
+                        <div class="spec-box">
+                            <div class="spec-box__icon">💧</div>
+                            <div class="spec-box__value">100m</div>
+                            <div class="spec-box__label">Water Resistance</div>
+                            <div class="spec-box__sub">5ATM + IP68 rated</div>
+                        </div>
+
+                        <div class="spec-box">
+                            <div class="spec-box__icon">🩺</div>
+                            <div class="spec-box__value">50+</div>
+                            <div class="spec-box__label">Health Sensors</div>
+                            <div class="spec-box__sub">Heart rate · SpO₂ · ECG</div>
+                        </div>
+
+                        <div class="spec-box">
+                            <div class="spec-box__icon">📡</div>
+                            <div class="spec-box__value">GPS</div>
+                            <div class="spec-box__label">Multi-Band Navigation</div>
+                            <div class="spec-box__sub">GPS · GLONASS · Galileo</div>
+                        </div>
+
+                        <div class="spec-box">
+                            <div class="spec-box__icon">📦</div>
+                            <div class="spec-box__value">36g</div>
+                            <div class="spec-box__label">Ultra Lightweight</div>
+                            <div class="spec-box__sub">Aerospace-grade aluminium</div>
+                        </div>
+
+                    </div>
+                    <div class="specs__detail">
+                        <h3>More than a watch.<br />It's a <em>companion</em>.</h3>
+                        <p>Every component inside NovaWatch was chosen to push the boundaries of what a wrist-worn
+                            device can do. From the custom-designed biometric chip to the sapphire-crystal display,
+                            nothing was left to chance.</p>
+                        <ul class="specs__list">
+                            <li>
+                                <span class="check">✓</span>
+                                Dual-frequency GPS for centimetre-level accuracy
+                            </li>
+                            <li>
+                                <span class="check">✓</span>
+                                Skin temperature sensor for early illness detection
+                            </li>
+                            <li>
+                                <span class="check">✓</span>
+                                6-axis IMU with fall detection and SOS alerts
+                            </li>
+                            <li>
+                                <span class="check">✓</span>
+                                Bluetooth 5.3 · Wi-Fi · NFC payments
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ══════════════════════════════════════════
+         CALL TO ACTION
+    ══════════════════════════════════════════ -->
+        <section class="cta-section" id="cta">
+            <div class="cta-section__bg"></div>
+            <div class="container cta-section__inner">
+                <p class="cta-section__eyebrow">Limited First Edition</p>
+                <h2 class="cta-section__title">
+                    Your next chapter<br />starts <em>now.</em>
+                </h2>
+                <p class="cta-section__desc">
+                    NovaWatch Series 1 ships worldwide. Choose from Midnight Black,
+                    Arctic Silver, or Ocean Blue. Free shipping on all orders.
+                </p>
+                <div class="cta-section__pricing">
+                    <div class="price-tag">
+                        <span class="price-from">Starting at</span>
+                        <span class="price-amount">$299</span>
+                    </div>
+                </div>
+                <div class="cta-section__actions">
+                    <a href="#contact" class="btn btn--primary btn--lg">Order Now — Free Shipping</a>
+                    <a href="#" class="btn btn--ghost">View Full Specifications</a>
+                </div>
+                <p class="cta-section__note">30-day returns · 2-year warranty · Secure checkout</p>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ══════════════════════════════════════════
+       FOOTER
+  ══════════════════════════════════════════ -->
+    <footer class="footer" id="contact">
+        <div class="container footer__inner">
+            <div class="footer__brand">
+                <a href="#" class="nav__logo">
+                    <span class="logo-mark">N</span>NovaWatch
+                </a>
+                <p>Time, elevated. Designed for those who refuse to settle.</p>
+            </div>
+            <div class="footer__links">
+                <h4>Product</h4>
+                <ul>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#specs">Specifications</a></li>
+                    <li><a href="#cta">Order Now</a></li>
+                </ul>
+            </div>
+            <div class="footer__contact">
+                <h4>Contact</h4>
+                <ul>
+                    <li>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                            <polyline points="22,6 12,13 2,6" />
+                        </svg>
+                        <a href="mailto:hello@novawatch.io">hello@novawatch.io</a>
+                    </li>
+                    <li>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path
+                                d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.48 2 2 0 0 1 3.59 1.31h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.96a16 16 0 0 0 6.13 6.13l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z" />
+                        </svg>
+                        <a href="tel:+18005551234">+264 85 777 7836</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <div class="container">
+                <p>© 2026 NovaWatch, Inc. All rights reserved.</p>
+                <p class="footer__legal">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Use</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
