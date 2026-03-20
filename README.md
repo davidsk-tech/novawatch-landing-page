@@ -88,4 +88,4 @@ This project was created to demonstrate my front-end development skills and my a
 
 ## Author
 
-David Durell
+David Samba Kambinda
